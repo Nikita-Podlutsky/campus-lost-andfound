@@ -1,0 +1,48 @@
+import type { Listing } from './model';
+
+export const mockListings: Listing[] = [
+  {
+    id: '1',
+    type: 'found',
+    title: 'Чёрный рюкзак',
+    description: 'Найден чёрный рюкзак Xiaomi возле главного входа, внутри тетради.',
+    photoUrl: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400',
+    location: 'Главный корпус, вход №1',
+    createdAt: '2026-09-10T10:00:00Z',
+    x: 30,
+    y: 40,
+  },
+  {
+    id: '2',
+    type: 'found',
+    title: 'Связка ключей',
+    description: 'Найдена связка из трёх ключей с брелоком в виде совы.',
+    photoUrl: 'https://images.unsplash.com/photo-1582139329536-e7284fece509?w=400',
+    location: 'Столовая, 2 этаж',
+    createdAt: '2026-09-11T14:30:00Z',
+    x: 55,
+    y: 65,
+  },
+  {
+    id: '3',
+    type: 'found',
+    title: 'Синяя бутылка для воды',
+    description: 'Оставлена в аудитории 305, синяя термобутылка с наклейками.',
+    photoUrl: 'https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=400',
+    location: 'Учебный корпус Б, ауд. 305',
+    createdAt: '2026-09-12T09:15:00Z',
+    x: 70,
+    y: 25,
+  },
+  {
+    id: '4',
+    type: 'found',
+    title: 'Наушники белые',
+    description: 'Беспроводные наушники в белом чехле, найдены на скамейке у библиотеки.',
+    photoUrl: 'https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=400',
+    location: 'Библиотека, у входа',
+    createdAt: '2026-09-12T16:45:00Z',
+    x: 45,
+    y: 80,
+  },
+];
