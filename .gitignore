@@ -42,4 +42,3 @@ __pycache__/
 .coverage
 htmlcov/
 backend/.env
-docs/backend-report.md
